@@ -1,0 +1,22 @@
+.recommended{
+    flex-basis: 30%;
+    text-align: left;/*ye line khud di h kyu ki ye center  me aara tha text sara ka sara*/
+}
+.side-video-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.side-video-list img{
+    flex-basis: 50%;
+    width: 50%;
+}
+.vid-info{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.vid-info h4, p{
+    font-size: 15px;
+    margin-left: 15px;
+    /*margin-bottom: 5px;*/
+}
